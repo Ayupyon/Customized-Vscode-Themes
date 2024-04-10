@@ -1,0 +1,24 @@
+{
+    "name": "theme-solarized-light-custom",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "1.0.0",
+    "publisher": "vscode",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "id": "Custom Solarized Light",
+                "label": "%themeLabel%",
+                "uiTheme": "vs",
+                "path": "./themes/solarized-light-color-theme.json"
+            }
+        ]
+    }
+}
